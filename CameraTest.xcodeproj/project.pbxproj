@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63811E2414B1F409003B7CFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E2314B1F409003B7CFD /* UIKit.framework */; };
+		63811E2614B1F409003B7CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E2514B1F409003B7CFD /* Foundation.framework */; };
+		63811E2814B1F409003B7CFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E2714B1F409003B7CFD /* CoreGraphics.framework */; };
+		63811E2A14B1F409003B7CFD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E2914B1F409003B7CFD /* CoreData.framework */; };
+		63811E3014B1F409003B7CFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63811E2E14B1F409003B7CFD /* InfoPlist.strings */; };
+		63811E3214B1F409003B7CFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63811E3114B1F409003B7CFD /* main.m */; };
+		63811E3614B1F409003B7CFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63811E3514B1F409003B7CFD /* AppDelegate.m */; };
+		63811E3914B1F40A003B7CFD /* CameraTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63811E3714B1F409003B7CFD /* CameraTest.xcdatamodeld */; };
+		63811E3C14B1F40A003B7CFD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63811E3B14B1F40A003B7CFD /* MasterViewController.m */; };
+		63811E3F14B1F40A003B7CFD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63811E3E14B1F40A003B7CFD /* DetailViewController.m */; };
+		63811E4214B1F40A003B7CFD /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63811E4014B1F40A003B7CFD /* MasterViewController_iPhone.xib */; };
+		63811E4514B1F40A003B7CFD /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63811E4314B1F40A003B7CFD /* MasterViewController_iPad.xib */; };
+		63811E4814B1F40A003B7CFD /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63811E4614B1F40A003B7CFD /* DetailViewController_iPhone.xib */; };
+		63811E4B14B1F40A003B7CFD /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63811E4914B1F40A003B7CFD /* DetailViewController_iPad.xib */; };
+		63811E5314B1F40A003B7CFD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E5214B1F40A003B7CFD /* SenTestingKit.framework */; };
+		63811E5414B1F40A003B7CFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E2314B1F409003B7CFD /* UIKit.framework */; };
+		63811E5514B1F40A003B7CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E2514B1F409003B7CFD /* Foundation.framework */; };
+		63811E5614B1F40A003B7CFD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E2914B1F409003B7CFD /* CoreData.framework */; };
+		63811E5E14B1F40A003B7CFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63811E5C14B1F40A003B7CFD /* InfoPlist.strings */; };
+		63811E6114B1F40A003B7CFD /* CameraTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63811E6014B1F40A003B7CFD /* CameraTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63811E5714B1F40A003B7CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63811E1614B1F409003B7CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63811E1E14B1F409003B7CFD;
+			remoteInfo = CameraTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63811E1F14B1F409003B7CFD /* CameraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63811E2314B1F409003B7CFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63811E2514B1F409003B7CFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63811E2714B1F409003B7CFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63811E2914B1F409003B7CFD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		63811E2D14B1F409003B7CFD /* CameraTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraTest-Info.plist"; sourceTree = "<group>"; };
+		63811E2F14B1F409003B7CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63811E3114B1F409003B7CFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63811E3314B1F409003B7CFD /* CameraTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraTest-Prefix.pch"; sourceTree = "<group>"; };
+		63811E3414B1F409003B7CFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63811E3514B1F409003B7CFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63811E3814B1F409003B7CFD /* CameraTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CameraTest.xcdatamodel; sourceTree = "<group>"; };
+		63811E3A14B1F40A003B7CFD /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		63811E3B14B1F40A003B7CFD /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		63811E3D14B1F40A003B7CFD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		63811E3E14B1F40A003B7CFD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		63811E4114B1F40A003B7CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		63811E4414B1F40A003B7CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		63811E4714B1F40A003B7CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		63811E4A14B1F40A003B7CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		63811E5114B1F40A003B7CFD /* CameraTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63811E5214B1F40A003B7CFD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		63811E5B14B1F40A003B7CFD /* CameraTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraTestTests-Info.plist"; sourceTree = "<group>"; };
+		63811E5D14B1F40A003B7CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63811E5F14B1F40A003B7CFD /* CameraTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraTestTests.h; sourceTree = "<group>"; };
+		63811E6014B1F40A003B7CFD /* CameraTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63811E1C14B1F409003B7CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811E2414B1F409003B7CFD /* UIKit.framework in Frameworks */,
+				63811E2614B1F409003B7CFD /* Foundation.framework in Frameworks */,
+				63811E2814B1F409003B7CFD /* CoreGraphics.framework in Frameworks */,
+				63811E2A14B1F409003B7CFD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63811E4D14B1F40A003B7CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811E5314B1F40A003B7CFD /* SenTestingKit.framework in Frameworks */,
+				63811E5414B1F40A003B7CFD /* UIKit.framework in Frameworks */,
+				63811E5514B1F40A003B7CFD /* Foundation.framework in Frameworks */,
+				63811E5614B1F40A003B7CFD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63811E1414B1F409003B7CFD = {
+			isa = PBXGroup;
+			children = (
+				63811E2B14B1F409003B7CFD /* CameraTest */,
+				63811E5914B1F40A003B7CFD /* CameraTestTests */,
+				63811E2214B1F409003B7CFD /* Frameworks */,
+				63811E2014B1F409003B7CFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63811E2014B1F409003B7CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63811E1F14B1F409003B7CFD /* CameraTest.app */,
+				63811E5114B1F40A003B7CFD /* CameraTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63811E2214B1F409003B7CFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63811E2314B1F409003B7CFD /* UIKit.framework */,
+				63811E2514B1F409003B7CFD /* Foundation.framework */,
+				63811E2714B1F409003B7CFD /* CoreGraphics.framework */,
+				63811E2914B1F409003B7CFD /* CoreData.framework */,
+				63811E5214B1F40A003B7CFD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63811E2B14B1F409003B7CFD /* CameraTest */ = {
+			isa = PBXGroup;
+			children = (
+				63811E3414B1F409003B7CFD /* AppDelegate.h */,
+				63811E3514B1F409003B7CFD /* AppDelegate.m */,
+				63811E3A14B1F40A003B7CFD /* MasterViewController.h */,
+				63811E3B14B1F40A003B7CFD /* MasterViewController.m */,
+				63811E3D14B1F40A003B7CFD /* DetailViewController.h */,
+				63811E3E14B1F40A003B7CFD /* DetailViewController.m */,
+				63811E4014B1F40A003B7CFD /* MasterViewController_iPhone.xib */,
+				63811E4314B1F40A003B7CFD /* MasterViewController_iPad.xib */,
+				63811E4614B1F40A003B7CFD /* DetailViewController_iPhone.xib */,
+				63811E4914B1F40A003B7CFD /* DetailViewController_iPad.xib */,
+				63811E3714B1F409003B7CFD /* CameraTest.xcdatamodeld */,
+				63811E2C14B1F409003B7CFD /* Supporting Files */,
+			);
+			path = CameraTest;
+			sourceTree = "<group>";
+		};
+		63811E2C14B1F409003B7CFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63811E2D14B1F409003B7CFD /* CameraTest-Info.plist */,
+				63811E2E14B1F409003B7CFD /* InfoPlist.strings */,
+				63811E3114B1F409003B7CFD /* main.m */,
+				63811E3314B1F409003B7CFD /* CameraTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63811E5914B1F40A003B7CFD /* CameraTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				63811E5F14B1F40A003B7CFD /* CameraTestTests.h */,
+				63811E6014B1F40A003B7CFD /* CameraTestTests.m */,
+				63811E5A14B1F40A003B7CFD /* Supporting Files */,
+			);
+			path = CameraTestTests;
+			sourceTree = "<group>";
+		};
+		63811E5A14B1F40A003B7CFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63811E5B14B1F40A003B7CFD /* CameraTestTests-Info.plist */,
+				63811E5C14B1F40A003B7CFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63811E1E14B1F409003B7CFD /* CameraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63811E6414B1F40A003B7CFD /* Build configuration list for PBXNativeTarget "CameraTest" */;
+			buildPhases = (
+				63811E1B14B1F409003B7CFD /* Sources */,
+				63811E1C14B1F409003B7CFD /* Frameworks */,
+				63811E1D14B1F409003B7CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraTest;
+			productName = CameraTest;
+			productReference = 63811E1F14B1F409003B7CFD /* CameraTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63811E5014B1F40A003B7CFD /* CameraTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63811E6714B1F40A003B7CFD /* Build configuration list for PBXNativeTarget "CameraTestTests" */;
+			buildPhases = (
+				63811E4C14B1F40A003B7CFD /* Sources */,
+				63811E4D14B1F40A003B7CFD /* Frameworks */,
+				63811E4E14B1F40A003B7CFD /* Resources */,
+				63811E4F14B1F40A003B7CFD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63811E5814B1F40A003B7CFD /* PBXTargetDependency */,
+			);
+			name = CameraTestTests;
+			productName = CameraTestTests;
+			productReference = 63811E5114B1F40A003B7CFD /* CameraTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63811E1614B1F409003B7CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Welltime Ltd";
+			};
+			buildConfigurationList = 63811E1914B1F409003B7CFD /* Build configuration list for PBXProject "CameraTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63811E1414B1F409003B7CFD;
+			productRefGroup = 63811E2014B1F409003B7CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63811E1E14B1F409003B7CFD /* CameraTest */,
+				63811E5014B1F40A003B7CFD /* CameraTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63811E1D14B1F409003B7CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811E3014B1F409003B7CFD /* InfoPlist.strings in Resources */,
+				63811E4214B1F40A003B7CFD /* MasterViewController_iPhone.xib in Resources */,
+				63811E4514B1F40A003B7CFD /* MasterViewController_iPad.xib in Resources */,
+				63811E4814B1F40A003B7CFD /* DetailViewController_iPhone.xib in Resources */,
+				63811E4B14B1F40A003B7CFD /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63811E4E14B1F40A003B7CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811E5E14B1F40A003B7CFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63811E4F14B1F40A003B7CFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63811E1B14B1F409003B7CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811E3214B1F409003B7CFD /* main.m in Sources */,
+				63811E3614B1F409003B7CFD /* AppDelegate.m in Sources */,
+				63811E3914B1F40A003B7CFD /* CameraTest.xcdatamodeld in Sources */,
+				63811E3C14B1F40A003B7CFD /* MasterViewController.m in Sources */,
+				63811E3F14B1F40A003B7CFD /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63811E4C14B1F40A003B7CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811E6114B1F40A003B7CFD /* CameraTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63811E5814B1F40A003B7CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63811E1E14B1F409003B7CFD /* CameraTest */;
+			targetProxy = 63811E5714B1F40A003B7CFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63811E2E14B1F409003B7CFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63811E2F14B1F409003B7CFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63811E4014B1F40A003B7CFD /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63811E4114B1F40A003B7CFD /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		63811E4314B1F40A003B7CFD /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63811E4414B1F40A003B7CFD /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		63811E4614B1F40A003B7CFD /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63811E4714B1F40A003B7CFD /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		63811E4914B1F40A003B7CFD /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63811E4A14B1F40A003B7CFD /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		63811E5C14B1F40A003B7CFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63811E5D14B1F40A003B7CFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63811E6214B1F40A003B7CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63811E6314B1F40A003B7CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63811E6514B1F40A003B7CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraTest/CameraTest-Prefix.pch";
+				INFOPLIST_FILE = "CameraTest/CameraTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63811E6614B1F40A003B7CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraTest/CameraTest-Prefix.pch";
+				INFOPLIST_FILE = "CameraTest/CameraTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63811E6814B1F40A003B7CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CameraTest.app/CameraTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraTest/CameraTest-Prefix.pch";
+				INFOPLIST_FILE = "CameraTestTests/CameraTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		63811E6914B1F40A003B7CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CameraTest.app/CameraTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraTest/CameraTest-Prefix.pch";
+				INFOPLIST_FILE = "CameraTestTests/CameraTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63811E1914B1F409003B7CFD /* Build configuration list for PBXProject "CameraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63811E6214B1F40A003B7CFD /* Debug */,
+				63811E6314B1F40A003B7CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63811E6414B1F40A003B7CFD /* Build configuration list for PBXNativeTarget "CameraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63811E6514B1F40A003B7CFD /* Debug */,
+				63811E6614B1F40A003B7CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63811E6714B1F40A003B7CFD /* Build configuration list for PBXNativeTarget "CameraTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63811E6814B1F40A003B7CFD /* Debug */,
+				63811E6914B1F40A003B7CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63811E3714B1F409003B7CFD /* CameraTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63811E3814B1F409003B7CFD /* CameraTest.xcdatamodel */,
+			);
+			currentVersion = 63811E3814B1F409003B7CFD /* CameraTest.xcdatamodel */;
+			path = CameraTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63811E1614B1F409003B7CFD /* Project object */;
+}
